@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo list</title>
+	<link rel="stylesheet" type="text/css" href="css/todolist.css"></head>
+<body>
+	<div id="header">
+	<h1>TO-DO LIST</h1>
+	</div>
+    <div id="top">
+	    <form>
+	    	<input type="text" name="work" id="input" autofocus><br>
+	    	<button class="upperbuttons" id="submit" onclick="add()">Submit</button>
+	    	<button class="upperbuttons" id="wall" onclick="deleteall()">Wipe All</button>
+	    	<button class="upperbuttons" id="checked" onclick="deletechecked()">Remove Checked</button>
+	    </form>	    	   
+   	</div>
+   	<script src="js/todolist.js"></script>
+</body>
+</html>
